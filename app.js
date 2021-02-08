@@ -42,7 +42,7 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(port, () =>{
-  console.log('server is running');
+  console.log(`server is running ${port}`);
 })
 
 module.exports = app;
